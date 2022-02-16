@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="index.css" />
+  <script defer src="index.js"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>JhonDev</title>
+  <link rel="icon" type="image/png" href="assets/favicon.png" />
+</head>
+
+<body>
+  <img class="ellipse" src="assets/Ellipse 1.png" alt="ellipse">
+  <div class="alert">
+    <h3>Copied Email</h3>
+  </div>
+  <button class="hiddeMenu">
+    <i id="menuHide" class="fa-solid fa-bars"></i>
+  </button>
+  <nav class="menu">
+    <ul>
+      <li>
+        <a class="menuItem" href="#Home">Home</a>
+      </li>
+      <li>
+        <a class="menuItem" href="#About">About</a>
+      </li>
+      <li>
+        <a class="menuItem" href="#Projects">Projects</a>
+      </li>
+      <li>
+        <a class="menuItem" href="#Contact">Contact</a>
+      </li>
+    </ul>
+  </nav>
+  <section class="iconSection">
+    <i class="fa-solid fa-moon fa-3x"></i>
+  </section>
+  <div class="container">
+    <div class="home" id="Home">
+      <img class="imgLogo" src="https://avatars.githubusercontent.com/u/81378436?v=4" alt="Logo">
+      <div class="homeSection">
+        <section>
+          <h1 class="title">Hi, I'm <strong class="colorText">Jhon PitMac</strong></h1>
+          <h3 class="subtitle">A <strong class="colorText">FullStack</strong> Developer</h3>
+          <section class="buttonsSection">
+            <a class="btn cvButton">CV</a>
+            <a target="_blank" href="https://github.com/PitMac" class="btn cvGitHub">GITHUB</a>
+          </section>
+        </section>
+      </div>
+    </div>
+    <div id="About">
+      <div class="aboutbg">
+        <div class="about">
+          <div class="aboutSection">
+            <h1 class="aboutTitle">What about me?</h1>
+            <p class="aboutMe">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Distinctio nemo minus ea saepe
+              ducimus, iure obcaecati temporibus consequuntur repudiandae veniam ratione expedita molestiae natus
+              doloribus neque dignissimos est vel consequatur!</p>
+            <h2 class="skillTitle">My Skills:</h2>
+            <section class="skillSection">
+              <img class="skillImg" src="assets/skills/flutter.png" alt="Flutter">
+              <img class="skillImg" src="assets/skills/javascript.png" alt="JavaScript">
+              <img class="skillImg" src="assets/skills/html.png" alt="HTML">
+              <img class="skillImg" src="assets/skills/css.png" alt="CSS">
+              <img class="skillImg" src="assets/skills/react.png" alt="REACT">
+              <img class="skillImg" src="assets/skills/node.png" alt="NODE">
+              <img class="skillImg" src="assets/skills/sql.png" alt="SQL">
+            </section>
+          </div>
+          <img class="imgLogo2" src="https://avatars.githubusercontent.com/u/81378436?v=4" alt="Logo">
+        </div>
+      </div>
+    </div>
+    <div id="Projects">
+      <br>
+      <br>
+      <h2 class="subtitles reverse">My Projects</h2>
+      <div class="projects">
+        <section class="projectItem">
+          <a target="_blank" href="https://github.com/PitMac/ECovid-App-Flutter">
+            <img class="projectImg" decoding="async" loading="lazy" src="assets/projects/ecovid.png" alt="ECovidApp">
+          </a>
+          <h2>ECovidApp</h2>
+        </section>
+        <section class="projectItem">
+          <a target="_blank" href="https://github.com/PitMac/FreeGame-App-RN">
+            <img class="projectImg" decoding="async" loading="lazy" src="assets/projects/freegamesapp.png"
+              alt="FreeGamesApp">
+          </a>
+          <h2>FreeGamesApp</h2>
+        </section>
+        <section class="projectItem">
+          <a target="_blank" href="https://github.com/PitMac/Anime-App-Flutter">
+            <img class="projectImg" decoding="async" loading="lazy" src="assets/projects/animeapp.png" alt="AnimeApp">
+          </a>
+          <h2>AnimeApp</h2>
+        </section>
+        <section class="projectItem">
+          <img class="projectImg" decoding="async" loading="lazy" src="assets/projects/freegamesapp.png" alt="asd">
+          <h2>Hello</h2>
+        </section>
+        <section class="projectItem">
+          <img class="projectImg" decoding="async" loading="lazy" src="assets/projects/freegamesapp.png" alt="asd">
+          <h2>Hello</h2>
+        </section>
+        <section class="projectItem">
+          <img class="projectImg" decoding="async" loading="lazy" src="assets/projects/freegamesapp.png" alt="asd">
+          <h2>Hello</h2>
+        </section>
+      </div>
+    </div>
+    <div" id="Contact">
+      <br>
+      <br>
+      <h2 class="subtitles">Contact Me</h2>
+      <div class="contact">
+        <a target="_blank" href="https://www.linkedin.com/in/jhon-pita-macias-64362b217/" class="contactItem">
+          <i class="fa-brands fa-linkedin-in fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://www.facebook.com/jhondavid.pitamacias.7" class="contactItem">
+          <i class="fa-brands fa-facebook-f fa-2x"></i>
+        </a>
+        <button id="emailButton" href="https://github.com/PitMac" class="contactItem">
+          <i class="fa-solid fa-at fa-2x"></i>
+        </button>
+        <a target="_blank" href="https://github.com/PitMac" class="contactItem">
+          <i class="fa-brands fa-telegram fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://wa.link/nibap6" class="contactItem">
+          <i class="fa-brands fa-whatsapp fa-2x"></i>
+        </a>
+        <a target="_blank" href="https://www.youtube.com/channel/UCJSIzpSUsxZYyJoHxYk_hLA" class="contactItem">
+          <i class="fa-brands fa-youtube fa-2x"></i>
+        </a>
+      </div>
+      <br>
+  </div>
+  </div>
+</body>
+
+</html>
